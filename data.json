@@ -11,22 +11,22 @@
     {
       "titre": "Table en bois massif",
       "description": "Cette table en bois massif a été fabriquée sur mesure pour s'harmoniser avec votre intérieur. Chaque détail, du choix du bois à la finition, est réalisé avec précision pour garantir une pièce unique et durable.",
-      "image-url": "https://js-dynamic-portfolio-data-makerslab-emlyon-cdweb-8f83155c64a0cc.gitlab.io/images/menuiserie/table-bois-massif.webp"
+      "imageurl": "https://js-dynamic-portfolio-data-makerslab-emlyon-cdweb-8f83155c64a0cc.gitlab.io/images/menuiserie/table-bois-massif.webp"
     },
     {
       "titre": "Porte d'entrée sculptée",
       "description": "Notre expertise en menuiserie se reflète dans cette porte d'entrée sculptée. Fabriquée avec des techniques traditionnelles, elle offre à votre maison une touche d'élégance et de sécurité.",
-      "image-url": "https://js-dynamic-portfolio-data-makerslab-emlyon-cdweb-8f83155c64a0cc.gitlab.io/images/menuiserie/porte-entree-sculptee.webp"
+      "imageurl": "https://js-dynamic-portfolio-data-makerslab-emlyon-cdweb-8f83155c64a0cc.gitlab.io/images/menuiserie/porte-entree-sculptee.webp"
     },
     {
       "titre": "Armoire en bois exotique",
       "description": "L'armoire en bois exotique est un exemple de l'artisanat exceptionnel de notre menuiserie. Chaque étagère, chaque détail est pensé pour vous offrir un meuble à la fois fonctionnel et esthétique.",
-      "image-url": "https://js-dynamic-portfolio-data-makerslab-emlyon-cdweb-8f83155c64a0cc.gitlab.io/images/menuiserie/armoire-bois-exotique.webp"
+      "imageurl": "https://js-dynamic-portfolio-data-makerslab-emlyon-cdweb-8f83155c64a0cc.gitlab.io/images/menuiserie/armoire-bois-exotique.webp"
     },
     {
       "titre": "Escalier sur mesure",
       "description": "Transformez votre espace avec un escalier sur mesure. Réalisé selon vos spécifications, il allie fonctionnalité et esthétique pour créer une pièce maîtresse dans votre intérieur.",
-      "image-url": "https://js-dynamic-portfolio-data-makerslab-emlyon-cdweb-8f83155c64a0cc.gitlab.io/images/menuiserie/escalier-sur-mesure.webp"
+      "imageurl": "https://js-dynamic-portfolio-data-makerslab-emlyon-cdweb-8f83155c64a0cc.gitlab.io/images/menuiserie/escalier-sur-mesure.webp"
     }
   ],
   "temoignages": [
