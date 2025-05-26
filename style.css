@@ -405,3 +405,18 @@ button {
   border-radius: 5px;
   font-size: 1.2rem;
 }
+#promesses {
+  background-color:blanc;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;  /* Aligne  en colonne */
+  text-align: center;
+  padding: 20px;
+}
