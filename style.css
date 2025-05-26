@@ -1,423 +1,90 @@
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
-/* les polices de caractères3 */
-body {
-  font-family: 'Arial', sans-serif;
-  line-height: 1.6;
-  background-color: #f4f4f4;
-  color: #d35400;
-}
-
-/* Header */
 header {
-  background-color: #d35400;
+  background: #dc821b;
   color: white;
-  padding: 20px 0;
-  text-align: center;
-}
-nav ul {
-  list-style: none;
-  padding: 10px 0;
-}
-
-nav ul li {
-  display: inline;
-  margin-right: 20px;
-}
-
-nav ul li a {
-  color: white;
-  text-decoration: none;
-  font-size: 1.1rem;
-}
-
-nav ul li a{
-  text-decoration: underline;
-}
-
-/* Section Hero */
-#hero {
-  background: url('https://js-dynamic-portfolio-data-makerslab-emlyon-cdweb-8f83155c64a0cc.gitlab.io/images/menuiserie/table-bois-massif.webp') no-repeat center center/cover;
-  color: white;
-  text-align: center;
-  padding: 80px 20px;
-}
-
-#hero h2 {
-  font-size: 2.5rem;
-  margin-bottom: 20px;
-}
-
-.cta-button {
-  background-color: #e67e22;
-  color: white;
-  padding: 10px 20px;
-  text-decoration: none;
-  font-size: 1.2rem;
-  border-radius: 5px;
-}
-
-.cta-button:hover {
-  background-color: #d35400;
-}
-
-/* 1-Nos Services */
-#services {
-  padding: 50px 20px;
-  text-align: center;
-  background-color: #6c2e1c;
-}
-
-#services h2 {
-  font-size: 2rem;
-  margin-bottom: 20px;
-}
-
-#services ul {
-  list-style: none;
-  font-size: 1.2rem;
-}
-
-#services ul li {
-  margin-bottom: 10px;
-}
-
-/*2-Nos Réalisations */
-#realisations {
-  padding: 50px 20px;
-  text-align: center;
-}
-
-#realisations h2 {
-  font-size: 2rem;
-  margin-bottom: 20px;
-}
-
-.projets {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-
-.projet {
-  background-color: white;
-  margin: 10px;
   padding: 20px;
-  width: 22%;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  border-radius: 10px;
   text-align: center;
-}
-
-.projet img {
-  width: 100%;
+  max-width: 100%;
   height: auto;
-  border-radius: 5px;
 }
 
-.projet h3 {
-  margin: 15px 0;
-  font-size: 1.5rem;
-}
-
-.projet p {
-  font-size: 1rem;
-  color:/* Réinitialisation des marges et des paddings */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/* Police de caractères */
 body {
-  font-family: 'Arial', sans-serif;
-  line-height: 1.6;
-  background-color: #f4f4f4;
+  font-family: sans-serif;
+  background: #f4f4f4;
   color: #333;
 }
 
-/* En-tête */
-header {
-  background-color: #d35400;
-  color: white;
-  padding: 20px 0;
-  text-align: center;
-}
 nav ul {
   list-style: none;
-  padding: 10px 0;
+  padding: 0;
+  text-align: center;
 }
 
 nav ul li {
   display: inline;
-  margin-right: 20px;
+  margin: 0 15px;
 }
 
 nav ul li a {
   color: white;
   text-decoration: none;
-  font-size: 1.1rem;
+  font-weight: bold;
 }
 
-/* Section Hero */
 #hero {
-  background: url('https://js-dynamic-portfolio-data-makerslab-emlyon-cdweb-8f83155c64a0cc.gitlab.io/images/menuiserie/table-bois-massif.webp');
-  color: white;
+  background: #eee;
+  padding: 40px 20px;
   text-align: center;
-  padding: 80px 20px;
 }
 
 #hero h2 {
-  font-size: 2.5rem;
-  margin-bottom: 20px;
-}
-
-.cta-button {
-  background-color: #e67e22;
-  color: white;
-  padding: 10px 20px;
-  text-decoration: none;
-  font-size: 1.2rem;
-  border-radius: 5px;
-}
-
-.button {
-  background-color: #d35400;
-}
-
-/* Section Nos Services */
-#services {
-  padding: 50px 20px;
-  text-align: center;
-  background-color: #ecf0f1;
-}
-
-#services h2 {
-  font-size: 2rem;
-  margin-bottom: 20px;
-}
-
-#services ul {
-  list-style: none;
-  font-size: 1.2rem;
-}
-
-#services ul li {
+  font-size: 24px;
   margin-bottom: 10px;
 }
 
-/* Section Nos Réalisations */
-#realisations {
-  padding: 50px 20px;
-  text-align: center;
+hero {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #955858;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
 }
 
-#realisations h2 {
-  font-size: 2rem;
-  margin-bottom: 20px;
+section {
+  padding: 20px;
+  margin: 20px 0;
+}
+
+section h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
 }
 
 .projets {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .projet {
-  background-color: white;
-  margin: 10px;
-  padding: 20px;
-  width: 22%;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  border-radius: 10px;
-  text-align: center;
+  width: 48%;
+  margin-bottom: 20px;
 }
 
 .projet img {
   width: 100%;
   height: auto;
-  border-radius: 5px;
-}
-
-.projet h3 {
-  margin: 15px 0;
-  font-size: 1.5rem;
-}
-
-.projet p {
-  font-size: 1rem;
-  color: #7f8c8d;
-}
-
-/* Section Avis Clients */
-#temoignages {
-  padding: 50px 20px;
-  background-color: #ecf0f1;
-  text-align: center;
-}
-
-#temoignages h2 {
-  font-size: 2rem;
-  margin-bottom: 20px;
-}
-
-.temoignage {
-  background-color: white;
-  margin: 10px;
-  padding: 20px;
-  width: 30%;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  border-radius: 10px;
-  display: inline-block;
-  vertical-align: top;
-}
-
-.temoignage p {
-  font-size: 1rem;
-  color: #d35400;
-}
-
-.temoignage strong {
-  font-size: 1.2rem;
-  color: #d35400;
-}
-
-.temoignage .note {
-  font-size: 1.5rem;
-  color: #d35400;
-}
-
-/* Section Contact */
-#contact {
-  padding: 50px 20px;
-  text-align: center;
-}
-
-#contact h2 {
-  font-size: 2rem;
-  margin-bottom: 20px;
-}
-
-form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-form input,
-form textarea {
-  width: 80%;
-  padding: 10px;
-  margin: 10px 0;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  font-size: 1rem;
-}
-
-form button {
-  background-color: #d35400;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  font-size: 1.2rem;
-  cursor: pointer;
-}
-
-/* Footer */
-footer {
-  background-color: #d35400;
-  color: white;
-  text-align: center;
-  padding: 20px 0;
-  position: fixed;
-  width: 100%;
-  bottom: 0;
-} ;
-}
-
-/* 3-Avis Clients */
-#temoignages {
-  padding: 50px 20px;
-  background-color: #6c2e1c;
-  text-align: center;
-}
-
-#temoignages h2 {
-  font-size: 2rem;
-  margin-bottom: 20px;
-}
-
-.temoignage {
-  background-color: white;
-  margin: 10px;
-  padding: 20px;
-  width: 30%;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  border-radius: 10px;
-  display: inline-block;
-
-}
-
-.temoignage  {
-
-  color: #6c2e1c;
-  font-size: 1.2rem;
-}
-
-/* Section Contact */
-#contact {
-  padding: 50px 20px;
-  text-align: center;
-}
-
-#contact h2 {
-  font-size: 2rem;
-  margin-bottom: 20px;
-}
-
-form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-input {
-  width: 80%;
-  padding: 10px;
-  margin: 10px 0;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  font-size: 1rem;
-}
-
-button {
-  background-color: #e67e22;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  font-size: 1.2rem;
-}
-#promesses {
-  background-color:blanc;
-  padding: 20px;
-  margin-top: 20px;
-  border-radius: 8px;
-  text-align: center;
 }
 
 footer {
-  display: flex;
-  align-items: center;
-  flex-direction: column;  /* Aligne  en colonne */
-  text-align: center;
+  background: #dc821b;
+  color: white;
   padding: 20px;
-   
+  text-align: center;
+  text-decoration: none;
 }
