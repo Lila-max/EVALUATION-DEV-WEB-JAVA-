@@ -4,6 +4,7 @@ fetch("data.json")
 
         afficherSlogan(data)
         afficherServices(data)
+        afficherRealisations(data.realisations)
     });
 
     //role : Afficher le slogan(id=slogan), le nom de l'entreprise (id=titreEntreprise) et le texte du bouton (id=CTA) 
@@ -45,17 +46,52 @@ function afficherServices(donnee){
 }
 
 // role : Afficher les réalisations(id=realisation),le nom des créations(id=création)et (id=image)
-//parametre :du json,donc des donnees
+//parametre :du json,donc des donnees : le talbeau de realisation
 // return :rien
 function afficherRealisations(donnee){
-let réalisations=donnee.titre;
-let nom=donnee.description;
-let image=donnee.imageur1;
+    donnee.forEach(real =>{
+        let titre=real.titre;
+        let nom=real.description;
+        let image=real.imageurl;
 
-console.log(réalisations,nom,image)
-document.getElementById("réalisation").innerHTML+=`${réalisations}`
-document.getElementById("création").innerHTML+=`${nom}`
-document.getElementById("image").innerHTML+=`${image}`
+        // chercher la bonne div dans notre html : 
+        document.getElementById("realisations").innerHTML += `
+        <!-- Réalisation 1 -->
+      <div class="projet">
+        <img
+          src="${image}"
+          alt="Table en bois ">
 
+        <h3>${titre}</h3>
+        <p>${nom}</p>
+      </div>
+        
+        `
+
+    })
 }
+//role:Afficher le témoignages (id=temoignages), nom des clients témoins(id=clientstémoins),type de prestation(id=typedepresta),commentaire(id=commentaire),note(id=note)
+//parmetre:du json, et donc des données et donc rien 
+//return:rien
 
+function afficherTemoignages(donnees){
+donnees.forEach(donnee=>{
+    let prenom=donnee.prenom;
+    let typedeprestation=donnee.typedeprestation;
+    let commmentaire=donnee.commentaire;
+    let note=donnee.note;
+
+
+// chercher la bonne div dans notre html : 
+        document.getElementById("temoignages").innerHTML +=`
+        <div class="temoignage">
+      <p><strong>${prenom}</strong></p>
+
+      <h3>${typedeprestation}</h3>
+      <p>"La Menuisuiserie Bobois a créé une ${commentaire}sur mesure pour ma maison. La qualité du travail est
+        exceptionnelle, et le service a été impeccable. Je recommande vivement."</p>
+      <p>${note}</p>
+    </div>
+     `
+})
+}
