@@ -44,7 +44,18 @@ function afficherServices(donnee){
     console.log(listeServices)
 }
 
-// role : 
-//parametre : 
-// return : 
-function afficherRealisations(donnee){}
+// role : Afficher les réalisations(id=realisation),le nom des créations(id=création)et (id=image)
+//parametre :du json,donc des donnees
+// return :rien
+function afficherRealisations(donnee){
+let réalisations=donnee.titre;
+let nom=donnee.description;
+let image=donnee.imageur1;
+
+console.log(réalisations,nom,image)
+document.getElementById("réalisation").innerHTML+=`${réalisations}`
+document.getElementById("création").innerHTML+=`${nom}`
+document.getElementById("image").innerHTML+=`${image}`
+
+}
+
